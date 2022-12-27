@@ -114,18 +114,19 @@
 
 .hero {
     display: flex;
-    height: 79vh;
+    height: 75.4vh;
 }
 
 .hero .video-section img {
-    height: 475px;
+    height: 453px;
 }
 
 .hero .buds-section {
-    padding: 58px 15px;
+    padding: 58px 36px;
     background-color: #000;
     color: #fff;
-    width: 500px;
+    /* width: 500px; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +137,7 @@
 }
 
 .hero .buds-section h1 {
-    font-size: 33px;
+    font-size: 31px;
     margin-top: 20px;
     letter-spacing: 2px;
     font-weight: 700;
