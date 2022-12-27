@@ -114,18 +114,21 @@
 
 .hero {
     display: flex;
+justify-content: space-between;
     height: 75.4vh;
 }
-
+.hero .video-section{
+    width: 66%;
+}
 .hero .video-section img {
-    height: 453px;
+    height: 100%;
 }
 
 .hero .buds-section {
     padding: 58px 36px;
     background-color: #000;
     color: #fff;
-    /* width: 500px; */
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
